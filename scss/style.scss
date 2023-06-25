@@ -2,6 +2,10 @@
 @import "mixins.scss";
 @import "animations.scss";
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Poppins";
     font-weight: 400;
