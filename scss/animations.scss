@@ -1,0 +1,44 @@
+@keyframes spin {
+    0% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: scale(1.05) rotate(180deg) translate(20px, -20px);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+@keyframes toggle {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(23px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes textAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes wordB {
+    0% {
+        transform: scale(1) translate(-10%, 60%);
+    }
+    50% {
+        transform: scale(1.1) translate(-15%, 60%);
+    }
+    100% {
+        transform: scale(1) translate(-10%, 60%);
+    }
+}

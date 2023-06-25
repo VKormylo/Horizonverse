@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="js libs/slick/slick.css" />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap"
+    rel="stylesheet"
+    />
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <title>Horizonverse</title> 
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="header__top">
+          <div class="header__container">
+            <a href="" class="header__logo">
+              <img src="img/logo.svg" alt="logo" />
+            </a>
+            <nav class="header__menu menu">
+              <div class="menu__body">
+                <ul class="menu__list">
+                  <li class="menu__item">
+                    <a href="" class="menu__link">Home</a>
+                  </li>
+                  <li class="menu__item">
+                    <a href="" class="menu__link">Lore</a>
+                  </li>
+                  <li class="menu__item">
+                    <a href="" class="menu__link">Characters</a>
+                  </li>
+                  <li class="menu__item">
+                    <a href="" class="menu__link">Gameplay</a>
+                  </li>
+                  <li class="menu__item">
+                    <a href="" class="menu__link">Gallery</a>
+                  </li>
+                  <li class="menu__item">
+                    <a href="" class="menu__link">Reviews</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+            <button class="menu__icon icon-menu" type="button">
+              <span></span>
+            </button>
+          </div>
+        </div>
+        <div class="hero" data-count="1">
+          <div class="hero__body">
+            <div class="hero__container">
+              <div class="hero__content">
+                <h1 class="hero__title">
+                  <span>Welcome to</span> <br />
+                  <span>Horizon Forbidden West</span>
+                </h1>
+                <div class="text__divider">
+                  <img src="img/text-divider.png" alt="divider" />
+                </div>
+                <div class="hero__text">
+                  <p>
+                    Explore a post-apocalyptic world filled with danger and
+                    mystery.
+                  </p>
+                </div>
+                <a href="" class="hero__button button button_primary"
+                  >Play now</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="hero__image">
+            <img src="img/hero/hero-bg.jpg" alt="Image" />
+          </div>
+          <div class="header__counter counter">
+            <span class="counter__current">01</span>
+            <span class="counter__pages">/ 06</span>
+          </div>
+          <div class="header__toggle toggle">
+            <div class="toggle__circle"></div>
+          </div>
+        </div>
+      </header>
+      <main class="page">
+        <section class="lore" data-count="2">
+          <div class="lore__container">
+            <div class="lore__header section-header">
+              <span class="section-header__subtitle">Lore</span>
+              <h2 class="section-header__title">
+                Uncover the Rich Mythology <br />
+                and History Behind the Game
+              </h2>
+            </div>
+            <div class="lore__items">
+              <div class="lore__item item-lore">
+                <div class="item-lore__title">The Old World</div>
+                <div class="item-lore__icon">
+                  <img src="img/lore/01.svg" alt="Icon" />
+                </div>
+                <div class="item-lore__text text">
+                  In the Old World, humans had advanced technology and lived in
+                  cities with towering skyscrapers. But their world was
+                  destroyed by a global catastrophe known as the Faro Plague,
+                  which wiped out all life on Earth, except for a few isolated
+                  tribes.
+                </div>
+              </div>
+              <div class="lore__item item-lore">
+                <div class="item-lore__title">The Nora Tribe</div>
+                <div class="item-lore__icon">
+                  <img src="img/lore/02.svg" alt="Icon" />
+                </div>
+                <div class="item-lore__text text">
+                  The Nora Tribe is one of the few remaining tribes in the
+                  world. They live in the sacred land of the All-Mother and
+                  worship her as their creator. Aloy, the protagonist of the
+                  game, was born an outcast of the tribe and must prove herself
+                  to earn their respect.
+                </div>
+              </div>
+              <div class="lore__item item-lore">
+                <div class="item-lore__title">The Machines</div>
+                <div class="item-lore__icon">
+                  <img src="img/lore/03.svg" alt="Icon" />
+                </div>
+                <div class="item-lore__text text">
+                  The world is now populated by robotic creatures, known as
+                  Machines. These Machines were created by the Old Ones to serve
+                  humanity, but they turned on their creators during the Faro
+                  Plague. Aloy must hunt and defeat these Machines to survive.
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="characters" data-count="3">
+          <div class="characters__container">
+            <div class="characters__header section-header">
+              <span class="section-header__subtitle">Characters</span>
+              <h2 class="section-header__title">
+                Learn the Stories and Personalities of the Game's Iconic
+                Characters
+              </h2>
+            </div>
+            <!-- <span class="characters__aloy word__bg">Aloy</span> -->
+            <div class="characters__images">
+              <img src="img/characters/01.jpg" alt="Aloy" />
+              <img src="img/characters/02.jpg" alt="Aloy" />
+            </div>
+            <div class="characters__content">
+              <h3 class="characters__title">Aloy, The Great Mother</h3>
+              <div class="text__divider">
+                <img src="img/text-divider.png" alt="divider" />
+              </div>
+              <div class="characters__text">
+                <span>Aloy</span> is the protagonist of the Horizon series, and
+                the main character in Horizon Zero Dawn and Horizon Forbidden
+                West. She is a skilled hunter and archer, as well as a talented
+                engineer and inventor. Aloy is an outcast from her tribe, but
+                through her bravery and determination, she becomes a hero to all
+                of humanity. Aloy's journey begins when she discovers a
+                mysterious device called a Focus, which allows her to see the
+                world in a different way and uncover hidden secrets. Along the
+                way, she faces a variety of dangerous enemies, including robotic
+                creatures known as machines, as well as human foes who seek to
+                control or destroy the world around them. Despite the challenges
+                she faces, Aloy remains steadfast in her quest to uncover the
+                truth about her past and the world she lives in. Her strength,
+                intelligence, and compassion make her a beloved character among
+                fans of the Horizon series, and an inspiration to all who seek
+                to overcome adversity and fight for what is right.
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="friends">
+          <div class="friends__container">
+            <h3 class="friends__title">Meet Aloy’s friends</h3>
+            <div class="friends__items">
+              <div class="friends__item item-friends">
+                <div class="item-friends__icon">
+                  <img src="img/friends/01.jpg" alt="Avatar" />
+                </div>
+                <div class="item-friends__title">Erend</div>
+                <div class="item-friends__text text">
+                  Erend is a member of the Oseram tribe and a close ally of
+                  Aloy. He is a skilled fighter and strategist, and assists Aloy
+                  on her journey in the Forbidden West.
+                </div>
+              </div>
+              <div class="friends__item item-friends">
+                <div class="item-friends__icon">
+                  <img src="img/friends/02.jpg" alt="Avatar" />
+                </div>
+                <div class="item-friends__title">Talanah</div>
+                <div class="item-friends__text text">
+                  Talanah is a skilled hunter and warrior of the Hunter's Lodge,
+                  and a potential ally of Aloy. She is determined to protect the
+                  lands of the Nora and bring justice to those who would harm
+                  them.
+                </div>
+              </div>
+              <div class="friends__item item-friends">
+                <div class="item-friends__icon">
+                  <img src="img/friends/03.jpg" alt="Avatar" />
+                </div>
+                <div class="item-friends__title">Sylens</div>
+                <div class="item-friends__text text">
+                  Sylens is a mysterious character who aids Aloy in her quest.
+                  He possesses advanced knowledge of the Old Ones and their
+                  technology, and has his own agenda in the Forbidden West.
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="gallery" data-count="4">
+          <div class="gallery__images">
+            <img
+              class="gallery__image gallery__image_1"
+              src="img/gallery/gallery-1.jpg"
+              alt="Image"
+            />
+            <img
+              class="gallery__image gallery__image_2"
+              src="img/gallery/gallery-2.jpg"
+              alt="Image"
+            />
+            <img
+              class="gallery__image gallery__image_3"
+              src="img/gallery/gallery-3.jpg"
+              alt="Image"
+            />
+            <img
+              class="gallery__image gallery__image_4"
+              src="img/gallery/gallery-4.jpg"
+              alt="Image"
+            />
+            <img
+              class="gallery__image gallery__image_5"
+              src="img/gallery/gallery-5.jpg"
+              alt="Image"
+            />
+          </div>
+        </section>
+        <section class="gameplay" data-count="5">
+          <div class="gameplay__container">
+            <div class="gameplay__content">
+              <div class="gameplay__header section-header">
+                <span class="section-header__subtitle">Gameplay</span>
+                <h2 class="section-header__title">
+                  Explore the Thrilling Gameplay
+                </h2>
+              </div>
+              <div class="gameplay__text text">
+                <span>Horizon Forbidden West</span> is an action role-playing
+                game set in a post-apocalyptic world overrun by robotic
+                creatures. Players take on the role of Aloy, a young hunter who
+                must navigate the dangerous landscape and uncover the secrets of
+                the old world. The game features a wide range of weapons,
+                skills, and abilities that allow players to take on robotic
+                enemies in a variety of ways. Aloy can use her trusty bow and
+                arrow to take out enemies from a distance, or engage in melee
+                combat using her spear and other weapons. In addition to combat,
+                Horizon Forbidden West features a variety of other gameplay
+                mechanics, including crafting, exploration, and puzzle-solving.
+                Players can gather resources to craft new weapons and items,
+                climb cliffs and buildings to uncover hidden secrets, and solve
+                puzzles to unlock new areas and abilities.
+              </div>
+              <a href="" class="gameplay__button button button_primary"
+                >Learn more</a
+              >
+            </div>
+            <div class="gameplay__images">
+              <div class="images__row">
+                <div class="gameplay__image gameplay__image_1">
+                  <img src="img/gameplay/01.jpg" alt="Gameplay image" />
+                </div>
+                <div class="gameplay__image gameplay__image_2">
+                  <img src="img/gameplay/02.jpg" alt="Gameplay image" />
+                </div>
+              </div>
+              <div class="gameplay__image gameplay__image_3">
+                <img src="img/gameplay/03.jpg" alt="Gameplay image" />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="reviews" data-count="6">
+          <div class="reviews__container">
+            <div class="reviews__header section-header">
+              <span class="section-header__subtitle">Reviews</span>
+              <h2 class="reviews__title section-header__title">
+                This game has got pretty good reviews!
+              </h2>
+            </div>
+            <div class="reviews__slider">
+              <div class="reviews__item item-reviews">
+                <div class="item-reviews__title">Score: 8</div>
+                <div class="item-reviews__bar bar_400"></div>
+                <div class="item-reviews__text text">
+                  "With stunning graphics, a compelling storyline, and a vast
+                  open world to explore, Horizon Forbidden West is a must-play
+                  for fans of action and adventure games. The game's rich,
+                  immersive world is packed with detail and surprises, and
+                  there's always something new and exciting to discover."
+                </div>
+              </div>
+              <div class="reviews__item item-reviews">
+                <div class="item-reviews__title">Score: 9.3</div>
+                <div class="item-reviews__bar bar_465"></div>
+                <div class="item-reviews__text text">
+                  "Horizon Forbidden West builds upon the foundations of its
+                  predecessor in almost every way, with improved visuals, deeper
+                  systems, and a more expansive world to explore. It's a true
+                  showcase for the power of the PlayStation 5, and a must-play
+                  for fans of open-world action."
+                </div>
+              </div>
+              <div class="reviews__item item-reviews">
+                <div class="item-reviews__title">Score: 8.7</div>
+                <div class="item-reviews__bar bar_435"></div>
+                <div class="item-reviews__text text">
+                  "Guerrilla Games has done it again with Horizon Forbidden
+                  West, delivering a game that sets a new bar for open-world
+                  games. The game's vast, beautifully rendered world is a joy to
+                  explore, and the addition of new creatures and mechanics keeps
+                  the game fresh and exciting throughout."
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer__container">
+          <div class="footer__main">
+            <a href="" class="footer__logo">
+              <img src="img/logo-footer.svg" alt="Logo" />
+            </a>
+            <nav class="footer__menu menu">
+              <ul class="menu__list">
+                <li class="menu__item">
+                  <a href="" class="menu__link">Home</a>
+                </li>
+                <li class="menu__item">
+                  <a href="" class="menu__link">Lore</a>
+                </li>
+                <li class="menu__item">
+                  <a href="" class="menu__link">Characters</a>
+                </li>
+                <li class="menu__item">
+                  <a href="" class="menu__link">Gameplay</a>
+                </li>
+                <li class="menu__item">
+                  <a href="" class="menu__link">Gallery</a>
+                </li>
+                <li class="menu__item">
+                  <a href="" class="menu__link">Reviews</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="footer__action">
+              <div class="footer__subtitle">
+                Explore a post-apocalyptic world filled with danger and mystery!
+              </div>
+              <a href="" class="footer__button button">Play now</a>
+            </div>
+          </div>
+        </div>
+        <div class="footer__copy">
+          <div class="footer__company">
+            © 2023 Horizonverse. All rights reserved.
+          </div>
+          <div class="footer__made">Made by Kormylo Vitaliy</div>
+        </div>
+      </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script type="text/javascript" src="js libs/slick/slick.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>
