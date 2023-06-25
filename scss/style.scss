@@ -480,10 +480,6 @@ body {
 .lore {
     position: relative;
     background-color: #fff7ec;
-    &__container {
-    }
-    &__header {
-    }
     &__items {
         margin-top: 64px;
         padding-bottom: 160px;
@@ -1017,7 +1013,7 @@ body {
         left: 0;
         width: 100%;
         height: 105px;
-        background: url("../img/hero-div.svg") top no-repeat;
+        background: url("../img/lore-divider.png") top no-repeat;
     }
 }
 
@@ -1113,8 +1109,6 @@ body {
 .footer {
     background-color: #fbe2bd;
     padding-top: 32px;
-    &__container {
-    }
     &__main {
         display: grid;
         grid-template-columns: 1fr 1fr;
